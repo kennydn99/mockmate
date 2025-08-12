@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MockMate
 
-## Getting Started
+**MockMate** is an AI-powered job interview preparation platform designed to simulate realistic interviews and provide instant, actionable feedback. Leveraging cutting-edge AI voice agents and language models, MockMate offers a seamless, interactive experience to help users boost their interview skills.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- AI-driven interview simulation using **Vapi AI** voice agents and **Google Gemini** for natural conversational interaction.
+- Secure user authentication with **Firebase**.
+- Responsive and modern UI built with **TailwindCSS**.
+- Scalable backend powered by **Next.js** RESTful APIs handling question generation, session management, and real-time dashboard updates.
+- Instant AI feedback and detailed interview transcripts for performance improvement.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend & Backend:** Next.js, TypeScript, TailwindCSS
+- **Authentication & Database:** Firebase
+- **AI Integration:** Vapi AI voice agents, Google Gemini language model
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[MockMate Website](https://mockmate-ashy.vercel.app/)
