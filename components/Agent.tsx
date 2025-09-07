@@ -141,11 +141,11 @@ const Agent = ({
         <div className="card-interviewer">
           <div className="avatar">
             <Image
-              src="/ai-avatar.png"
+              src="/ai-chat-50.png"
               alt="vapi"
-              width={65}
-              height={54}
-              className="object-cover"
+              width={100}
+              height={100}
+              className="rounded-full object-cover size-[50px]"
             />
             {isSpeaking && <span className="animate-speak"></span>}
           </div>
@@ -154,11 +154,11 @@ const Agent = ({
         <div className="card-border">
           <div className="card-content">
             <Image
-              src="/user-avatar.png"
+              src="/logo.png"
               alt="user avatar"
-              width={540}
-              height={540}
-              className="rounded-full object-cover size-[120px]"
+              width={100}
+              height={100}
+              className="rounded-full object-cover size-[50px]"
             />
             <h3>{userName}</h3>
           </div>
